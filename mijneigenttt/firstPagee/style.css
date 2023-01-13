@@ -1,0 +1,38 @@
+.background-video {
+
+    width: 100vw;
+
+    height: 100vh;
+
+    object-fit: cover;
+
+    position: fixed;
+
+    left: 0;
+
+    right: 0;
+
+    top: 0;
+
+    bottom: 0;
+
+  }
+
+  .wrapper{
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(26,1fr);
+    display: grid;
+    height: 750px;
+
+  }
+
+  .box{
+
+    grid-area: 25/19/26/20;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  
